@@ -1,10 +1,13 @@
 h1 {
   font-size: 48px;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom: 10px;
 }
 
 h2 {
   font-size: 14px;
   margin: 2px;
+  margin-bottom: 0px;
 }
 
 h3 {
@@ -25,7 +28,7 @@ h4 {
 .fixed-box {
   position: fixed;
   top: 80%;
-  right: 10px;
+  right: -50px;
   background-color: green;
   margin: auto;
   padding: 0px 10px;
@@ -58,6 +61,7 @@ h4 {
 
 #experience-title {
   font-size: 34px;
+  margin-top: 10px;
 }
 
 #about-me {
