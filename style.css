@@ -97,6 +97,10 @@ ul {
     text-align: center;
   }
 
+  .clipped {
+    display: none;
+  }
+
   #experience-title {
     text-align: center;
     font-size: max(8vw, 20px);
