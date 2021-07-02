@@ -93,12 +93,12 @@ ul {
     font-size: max(10vw, 24px);
   }
 
-  .content-contact {
-    text-align: center;
-  }
-
   .clipped {
     display: none;
+  }
+
+  #content-contact {
+    text-align: center;
   }
 
   #experience-title {
