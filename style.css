@@ -1,5 +1,5 @@
 h1 {
-  font-size: 44px;
+  font-size: 48px;
 }
 
 h2 {
@@ -7,14 +7,50 @@ h2 {
   margin: 2px;
 }
 
-.job-info {
-  padding: 1px 15px;
-  border-radius: 5px;
-  background: linear-gradient(0deg, rgba(9,9,121,0) 0%, rgba(255,196,241,1) 68%);
+h3 {
+  margin-bottom: 10px;
 }
 
+h4 {
+  margin: auto;
+}
+
+.job-info {
+  padding: 1px 15px 20px;
+  border-radius: 5px;
+  background: linear-gradient(0deg, rgba(9,9,121,0) 5%, rgba(255,196,241,.8) 15%);
+  filter: drop-shadow(2px 2px 4px gray);
+}
+
+.fixed-box {
+  position: fixed;
+  top: 80%;
+  right: 10px;
+  background-color: green;
+  margin: auto;
+  padding: 0px 10px;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 80%;
+  right: -60px;
+  background-color: green;
+  margin: auto;
+  padding: 0px 10px;
+}
+
+.flavors {
+  font-family: Flavors, cursive;
+}
+
+.no-display {
+  font-size: 0px;
+}
+
+
 #container {
-  background-color: rgb(200, 250, 200);
+  background-color: rgba(200, 250, 200, .8);
   padding: 10px 15% 10px 15%;
   margin: 10px 10%;
   border-radius: 20px;
@@ -22,4 +58,14 @@ h2 {
 
 #experience-title {
   font-size: 34px;
+}
+
+#about-me {
+  width: auto;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 10vw;
+  }
 }
