@@ -18,11 +18,15 @@ h4 {
   margin: auto;
 }
 
+ul {
+  margin-bottom: 40px;
+}
+
 .job-info {
   padding: 1px 15px 20px;
   border-radius: 5px;
   background: linear-gradient(0deg, rgba(9,9,121,0) 5%, rgba(255,196,241,.8) 15%);
-  filter: drop-shadow(2px 2px 4px gray);
+  filter: drop-shadow(2px 2px 1px gray);
 }
 
 .fixed-box {
@@ -71,5 +75,16 @@ h4 {
 @media (max-width: 480px) {
   h1 {
     font-size: 10vw;
+  }
+
+  .job-info{
+    width: 100vw;
+    margin: 0px;
+  }
+
+  #container {
+    width: 100vw;
+    margin: 0px;
+    border-radius: 0px;
   }
 }
