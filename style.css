@@ -27,8 +27,6 @@ ul {
   margin-bottom: 40px;
 }
 
-
-
 .job-info {
   padding: 1px 15px 20px;
   border-radius: 5px;
@@ -36,22 +34,31 @@ ul {
   filter: drop-shadow(2px 2px 1px gray);
 }
 
-.fixed-box {
-  position: fixed;
+.clipped {
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    top: 80%;
+    width: 200px;
+    height: 100px;
+}
+
+.position-box{
   top: 80%;
-  right: -50px;
   background-color: green;
   margin: auto;
   padding: 0px 10px;
 }
 
+.fixed-box {
+  position: fixed;
+  right: -50px;
+}
+
 .absolute-box {
   position: absolute;
-  top: 80%;
+  top: 0%;
   right: -60px;
-  background-color: green;
-  margin: auto;
-  padding: 0px 10px;
 }
 
 .flavors {
