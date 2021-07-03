@@ -1,6 +1,13 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-image: url("https://www.svgrepo.com/show/129178/hot-dog.svg");
   background-size: 25%;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -89,6 +96,10 @@ ul {
 
 @media (max-width: 480px) {
 
+  body {
+    background-image: none;
+  }
+
   h1 {
     font-size: max(10vw, 24px);
   }
@@ -107,10 +118,10 @@ ul {
   }
 
   #container {
-    width: 100vw;
-    margin: 0px;
+    width:94vw;
+    margin: auto;
     border-radius: 0px;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
